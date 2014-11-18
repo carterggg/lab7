@@ -14,7 +14,7 @@ document.querySelector('.active');
 document.querySelectorAll('.active');
 */
 
-
+/*
 var columns = document.querySelectorAll('.columns')
 
 for(var item in columns){
@@ -22,4 +22,17 @@ for(var item in columns){
 	this.style.visibility = "hidden";
 	}
 }
+*/
+
+/*
+$('.columns').click(function(){
+	$(this).fadeOut('slow');
+});
+*/
+
+$('.toggle').click(function(){
+	$('.toggle + p').fadeToggle('slow');
+});
+
+
 
