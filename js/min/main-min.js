@@ -31,7 +31,7 @@ $('.columns').click(function(){
 */
 
 $('.toggle').click(function(){
-	$('.toggle + p').fadeToggle('slow');
+	$(this).next().fadeToggle('fast');
 });
 
 
