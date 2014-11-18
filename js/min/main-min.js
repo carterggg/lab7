@@ -1,0 +1,1 @@
+document.getElementById("main"),document.querySelector(".active"),document.querySelectorAll(".active");
